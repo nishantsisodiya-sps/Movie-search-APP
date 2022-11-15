@@ -1,0 +1,36 @@
+.na{
+    margin: 2%;
+    height: 100%;
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+}
+.input{
+    border-radius: 6px;
+    height: 36px;
+}
+
+input[type = text]{
+    padding: 10px 15px;
+            margin: 5px 0;
+            box-sizing: border-box;
+}
+
+.table-dark{
+    width: 96%;
+}
+p{
+    font-size: large;
+    color: darkslateblue;
+    font-weight: 600;
+    text-align: center;
+    border: ridge;
+    width: 96%;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+

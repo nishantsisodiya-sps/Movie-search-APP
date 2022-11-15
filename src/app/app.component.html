@@ -1,0 +1,29 @@
+<div class="navbar">
+  <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="angularlogo" height="50vh">
+  <h2>Angular Movies</h2>
+
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/home" routerLinkActive="active" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/bgmovies" routerLinkActive="active">Browse movies</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/list" routerLinkActive="active">Movie list</a>
+    </li>
+  </ul>
+    
+  <div class="input-group">
+    <input type="search" class="form-control rounded" id="form1" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+    <button type="button" class="btn btn-outline-primary" style="color: white;" >search</button>
+  </div>
+    
+    <a class="nav-link" onmouseover="this.style.color='#0d6efd'" id="login" href="#">Login</a>
+<br>
+<br>
+</div>
+<router-outlet></router-outlet>

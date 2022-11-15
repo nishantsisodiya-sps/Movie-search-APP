@@ -1,0 +1,22 @@
+<div class="na">
+    <h1>Search movies here</h1>
+    <br>
+    <br>
+    <div class="search">
+    <input class="input" type="text" placeholder="Search for movies" (keyup)="submitval(val.value)" #val>
+</div>
+    <br>
+    <br>
+
+        <p *ngIf="display">Searched Items {{movies.length}}</p>
+    
+    <ul *ngFor="let movie of movies">
+        <li><strong style="color: red;">{{movie.Title}}</strong></li>
+        <ul>
+            <li><strong>Year :</strong> {{movie.Year}}</li>
+            <li><strong>imdbID :</strong>{{movie.imdbID}}</li>
+            <li><strong>Type :</strong>{{movie.Type}}</li>
+        </ul>
+    </ul>
+
+</div>
